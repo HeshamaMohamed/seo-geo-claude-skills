@@ -58,15 +58,15 @@ metadata:
 <details>
 <summary>Browse all 20 skills</summary>
 
-**Research** · [keyword-research](../../research/keyword-research/) · [competitor-analysis](../../research/competitor-analysis/) · [serp-analysis](../../research/serp-analysis/) · [content-gap-analysis](../../research/content-gap-analysis/)
+**Research** · [keyword-research](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/research/keyword-research/SKILL.md) · [competitor-analysis](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/research/competitor-analysis/SKILL.md) · [serp-analysis](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/research/serp-analysis/SKILL.md) · [content-gap-analysis](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/research/content-gap-analysis/SKILL.md)
 
-**Build** · [seo-content-writer](../../build/seo-content-writer/) · [geo-content-optimizer](../../build/geo-content-optimizer/) · [meta-tags-optimizer](../../build/meta-tags-optimizer/) · [schema-markup-generator](../../build/schema-markup-generator/)
+**Build** · [seo-content-writer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/build/seo-content-writer/SKILL.md) · [geo-content-optimizer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/build/geo-content-optimizer/SKILL.md) · [meta-tags-optimizer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/build/meta-tags-optimizer/SKILL.md) · [schema-markup-generator](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/build/schema-markup-generator/SKILL.md)
 
-**Optimize** · [on-page-seo-auditor](../on-page-seo-auditor/) · **technical-seo-checker** · [internal-linking-optimizer](../internal-linking-optimizer/) · [content-refresher](../content-refresher/)
+**Optimize** · [on-page-seo-auditor](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/on-page-seo-auditor/SKILL.md) · **technical-seo-checker** · [internal-linking-optimizer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/internal-linking-optimizer/SKILL.md) · [content-refresher](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/content-refresher/SKILL.md)
 
-**Monitor** · [rank-tracker](../../monitor/rank-tracker/) · [backlink-analyzer](../../monitor/backlink-analyzer/) · [performance-reporter](../../monitor/performance-reporter/) · [alert-manager](../../monitor/alert-manager/)
+**Monitor** · [rank-tracker](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/monitor/rank-tracker/SKILL.md) · [backlink-analyzer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/monitor/backlink-analyzer/SKILL.md) · [performance-reporter](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/monitor/performance-reporter/SKILL.md) · [alert-manager](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/monitor/alert-manager/SKILL.md)
 
-**Cross-cutting** · [content-quality-auditor](../../cross-cutting/content-quality-auditor/) · [domain-authority-auditor](../../cross-cutting/domain-authority-auditor/) · [entity-optimizer](../../cross-cutting/entity-optimizer/) · [memory-management](../../cross-cutting/memory-management/)
+**Cross-cutting** · [content-quality-auditor](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/cross-cutting/content-quality-auditor/SKILL.md) · [domain-authority-auditor](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/cross-cutting/domain-authority-auditor/SKILL.md) · [entity-optimizer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/cross-cutting/entity-optimizer/SKILL.md) · [memory-management](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/cross-cutting/memory-management/SKILL.md)
 
 </details>
 
@@ -119,7 +119,7 @@ Technical SEO checklist for migrating [old domain] to [new domain]
 
 ## Data Sources
 
-> See [CONNECTORS.md](../../CONNECTORS.md) for tool category placeholders.
+> See [CONNECTORS.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/CONNECTORS.md) for tool category placeholders.
 
 **With ~~web crawler + ~~page speed tool + ~~CDN connected:**
 Claude can automatically crawl the entire site structure via ~~web crawler, pull Core Web Vitals and performance metrics from ~~page speed tool, analyze caching headers from ~~CDN, and fetch mobile-friendliness data. This enables comprehensive automated technical audits.
@@ -260,31 +260,31 @@ When a user requests a technical SEO audit:
 
 3. **Audit Site Speed & Core Web Vitals** — CWV metrics (LCP/FID/CLS/INP), additional performance metrics (TTFB/FCP/Speed Index/TBT), resource loading breakdown, optimization recommendations
 
-   > **Reference**: See [references/technical-audit-templates.md](./references/technical-audit-templates.md) for the performance analysis template (Step 3).
+   > **Reference**: See [references/technical-audit-templates.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/technical-seo-checker/references/technical-audit-templates.md) for the performance analysis template (Step 3).
 
 4. **Audit Mobile-Friendliness** — Mobile-friendly test, responsive design check, mobile-first indexing verification
 
-   > **Reference**: See [references/technical-audit-templates.md](./references/technical-audit-templates.md) for the mobile optimization template (Step 4).
+   > **Reference**: See [references/technical-audit-templates.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/technical-seo-checker/references/technical-audit-templates.md) for the mobile optimization template (Step 4).
 
 5. **Audit Security & HTTPS** — SSL certificate, HTTPS enforcement, mixed content, HSTS, security headers (CSP, X-Frame-Options, etc.)
 
-   > **Reference**: See [references/technical-audit-templates.md](./references/technical-audit-templates.md) for the security analysis template (Step 5).
+   > **Reference**: See [references/technical-audit-templates.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/technical-seo-checker/references/technical-audit-templates.md) for the security analysis template (Step 5).
 
 6. **Audit URL Structure** — URL patterns, issues (dynamic params, session IDs, uppercase), redirect analysis (chains, loops, 302s)
 
-   > **Reference**: See [references/technical-audit-templates.md](./references/technical-audit-templates.md) for the URL structure template (Step 6).
+   > **Reference**: See [references/technical-audit-templates.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/technical-seo-checker/references/technical-audit-templates.md) for the URL structure template (Step 6).
 
 7. **Audit Structured Data** — Schema markup validation, missing schema opportunities. CORE-EEAT alignment: maps to O05.
 
-   > **Reference**: See [references/technical-audit-templates.md](./references/technical-audit-templates.md) for the structured data template (Step 7).
+   > **Reference**: See [references/technical-audit-templates.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/technical-seo-checker/references/technical-audit-templates.md) for the structured data template (Step 7).
 
 8. **Audit International SEO (if applicable)** — Hreflang implementation, language/region targeting
 
-   > **Reference**: See [references/technical-audit-templates.md](./references/technical-audit-templates.md) for the international SEO template (Step 8).
+   > **Reference**: See [references/technical-audit-templates.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/technical-seo-checker/references/technical-audit-templates.md) for the international SEO template (Step 8).
 
 9. **Generate Technical Audit Summary** — Overall health score with visual breakdown, critical/high/medium issues, quick wins, implementation roadmap (weeks 1-4+), monitoring recommendations
 
-   > **Reference**: See [references/technical-audit-templates.md](./references/technical-audit-templates.md) for the audit summary template (Step 9).
+   > **Reference**: See [references/technical-audit-templates.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/technical-seo-checker/references/technical-audit-templates.md) for the audit summary template (Step 9).
 
 ## Validation Checkpoints
 
@@ -301,7 +301,7 @@ When a user requests a technical SEO audit:
 
 ## Example
 
-> **Reference**: See [references/technical-audit-example.md](./references/technical-audit-example.md) for a full worked example (cloudhosting.com technical audit) and the comprehensive technical SEO checklist.
+> **Reference**: See [references/technical-audit-example.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/technical-seo-checker/references/technical-audit-example.md) for a full worked example (cloudhosting.com technical audit) and the comprehensive technical SEO checklist.
 
 ## Tips for Success
 
@@ -311,21 +311,21 @@ When a user requests a technical SEO audit:
 4. **Document everything** - Track changes for troubleshooting
 5. **Regular audits** - Schedule quarterly technical reviews
 
-> **Technical reference**: For issue severity framework, prioritization matrix, and Core Web Vitals optimization quick reference, see [references/http-status-codes.md](./references/http-status-codes.md).
+> **Technical reference**: For issue severity framework, prioritization matrix, and Core Web Vitals optimization quick reference, see [references/http-status-codes.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/technical-seo-checker/references/http-status-codes.md).
 
 ## Reference Materials
 
-- [robots.txt Reference](./references/robots-txt-reference.md) — Syntax guide, templates, common configurations
-- [HTTP Status Codes](./references/http-status-codes.md) — SEO impact of each status code, redirect best practices
-- [Technical Audit Templates](./references/technical-audit-templates.md) — Detailed output templates for steps 3-9 (CWV, mobile, security, URL structure, structured data, international, audit summary)
-- [Technical Audit Example & Checklist](./references/technical-audit-example.md) — Full worked example and comprehensive technical SEO checklist
+- [robots.txt Reference](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/technical-seo-checker/references/robots-txt-reference.md) — Syntax guide, templates, common configurations
+- [HTTP Status Codes](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/technical-seo-checker/references/http-status-codes.md) — SEO impact of each status code, redirect best practices
+- [Technical Audit Templates](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/technical-seo-checker/references/technical-audit-templates.md) — Detailed output templates for steps 3-9 (CWV, mobile, security, URL structure, structured data, international, audit summary)
+- [Technical Audit Example & Checklist](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/technical-seo-checker/references/technical-audit-example.md) — Full worked example and comprehensive technical SEO checklist
 
 ## Related Skills
 
-- [on-page-seo-auditor](../on-page-seo-auditor/) — On-page SEO audit
-- [schema-markup-generator](../../build/schema-markup-generator/) — Fix schema issues
-- [performance-reporter](../../monitor/performance-reporter/) — Monitor improvements
-- [internal-linking-optimizer](../internal-linking-optimizer/) — Fix link issues
-- [alert-manager](../../monitor/alert-manager/) — Set up alerts for technical issues found
-- [content-quality-auditor](../../cross-cutting/content-quality-auditor/) — Full 80-item CORE-EEAT audit
+- [on-page-seo-auditor](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/on-page-seo-auditor/SKILL.md) — On-page SEO audit
+- [schema-markup-generator](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/build/schema-markup-generator/SKILL.md) — Fix schema issues
+- [performance-reporter](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/monitor/performance-reporter/SKILL.md) — Monitor improvements
+- [internal-linking-optimizer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/internal-linking-optimizer/SKILL.md) — Fix link issues
+- [alert-manager](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/monitor/alert-manager/SKILL.md) — Set up alerts for technical issues found
+- [content-quality-auditor](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/cross-cutting/content-quality-auditor/SKILL.md) — Full 80-item CORE-EEAT audit
 

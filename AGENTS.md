@@ -148,7 +148,7 @@ Two proprietary frameworks power this library's auditing skills:
 
 Used by: content-quality-auditor, seo-content-writer, geo-content-optimizer, content-refresher, on-page-seo-auditor
 
-Full reference: `references/core-eeat-benchmark.md`
+Full reference: [references/core-eeat-benchmark.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/references/core-eeat-benchmark.md)
 
 ### CITE (40 items, 4 dimensions)
 - **C**itation (10 items) — backlink profiles, media mentions
@@ -158,7 +158,7 @@ Full reference: `references/core-eeat-benchmark.md`
 
 Used by: domain-authority-auditor, backlink-analyzer, competitor-analysis, performance-reporter
 
-Full reference: `references/cite-domain-rating.md`
+Full reference: [references/cite-domain-rating.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/references/cite-domain-rating.md)
 
 ### Veto System
 Both frameworks include critical items that can override the overall score:
@@ -167,7 +167,7 @@ Both frameworks include critical items that can override the overall score:
 
 ## Tool Connector Pattern
 
-Skills use `~~category` placeholders instead of specific tool names. See [CONNECTORS.md](./CONNECTORS.md) for the full mapping.
+Skills use `~~category` placeholders instead of specific tool names. See [CONNECTORS.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/CONNECTORS.md) for the full mapping.
 
 ### Progressive Enhancement
 | Tier | Integration | Experience |
@@ -220,7 +220,7 @@ When one skill recommends running another (via Related Skills sections), preserv
 | Priority items | List specific item IDs |
 | Content URL | Include for fetch-capable skills |
 
-If `memory-management` is active, prior audit results are automatically available via the hot cache in `CLAUDE.md`.
+If `memory-management` is active, prior audit results are automatically available via the hot cache in [CLAUDE.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/CLAUDE.md).
 
 ## Git Workflow
 

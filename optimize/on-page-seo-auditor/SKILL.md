@@ -49,15 +49,15 @@ metadata:
 <details>
 <summary>Browse all 20 skills</summary>
 
-**Research** · [keyword-research](../../research/keyword-research/) · [competitor-analysis](../../research/competitor-analysis/) · [serp-analysis](../../research/serp-analysis/) · [content-gap-analysis](../../research/content-gap-analysis/)
+**Research** · [keyword-research](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/research/keyword-research/SKILL.md) · [competitor-analysis](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/research/competitor-analysis/SKILL.md) · [serp-analysis](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/research/serp-analysis/SKILL.md) · [content-gap-analysis](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/research/content-gap-analysis/SKILL.md)
 
-**Build** · [seo-content-writer](../../build/seo-content-writer/) · [geo-content-optimizer](../../build/geo-content-optimizer/) · [meta-tags-optimizer](../../build/meta-tags-optimizer/) · [schema-markup-generator](../../build/schema-markup-generator/)
+**Build** · [seo-content-writer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/build/seo-content-writer/SKILL.md) · [geo-content-optimizer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/build/geo-content-optimizer/SKILL.md) · [meta-tags-optimizer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/build/meta-tags-optimizer/SKILL.md) · [schema-markup-generator](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/build/schema-markup-generator/SKILL.md)
 
-**Optimize** · **on-page-seo-auditor** · [technical-seo-checker](../technical-seo-checker/) · [internal-linking-optimizer](../internal-linking-optimizer/) · [content-refresher](../content-refresher/)
+**Optimize** · **on-page-seo-auditor** · [technical-seo-checker](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/technical-seo-checker/SKILL.md) · [internal-linking-optimizer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/internal-linking-optimizer/SKILL.md) · [content-refresher](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/content-refresher/SKILL.md)
 
-**Monitor** · [rank-tracker](../../monitor/rank-tracker/) · [backlink-analyzer](../../monitor/backlink-analyzer/) · [performance-reporter](../../monitor/performance-reporter/) · [alert-manager](../../monitor/alert-manager/)
+**Monitor** · [rank-tracker](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/monitor/rank-tracker/SKILL.md) · [backlink-analyzer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/monitor/backlink-analyzer/SKILL.md) · [performance-reporter](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/monitor/performance-reporter/SKILL.md) · [alert-manager](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/monitor/alert-manager/SKILL.md)
 
-**Cross-cutting** · [content-quality-auditor](../../cross-cutting/content-quality-auditor/) · [domain-authority-auditor](../../cross-cutting/domain-authority-auditor/) · [entity-optimizer](../../cross-cutting/entity-optimizer/) · [memory-management](../../cross-cutting/memory-management/)
+**Cross-cutting** · [content-quality-auditor](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/cross-cutting/content-quality-auditor/SKILL.md) · [domain-authority-auditor](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/cross-cutting/domain-authority-auditor/SKILL.md) · [entity-optimizer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/cross-cutting/entity-optimizer/SKILL.md) · [memory-management](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/cross-cutting/memory-management/SKILL.md)
 
 </details>
 
@@ -110,7 +110,7 @@ Pre-publish SEO audit for this content targeting [keyword]: [content]
 
 ## Data Sources
 
-> See [CONNECTORS.md](../../CONNECTORS.md) for tool category placeholders.
+> See [CONNECTORS.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/CONNECTORS.md) for tool category placeholders.
 
 **With ~~SEO tool + ~~web crawler connected:**
 Claude can automatically pull page HTML via ~~web crawler, fetch keyword search volume and difficulty from ~~SEO tool, retrieve click-through rate data from ~~search console, and download competitor pages for comparison. This enables fully automated audits with live data.
@@ -233,31 +233,31 @@ When a user requests an on-page SEO audit:
 
 5. **Audit Content Quality** — Word count, reading level, comprehensiveness, formatting, E-E-A-T signals, content elements checklist, gap identification
 
-   > **Reference**: See [references/audit-templates.md](./references/audit-templates.md) for the content quality template (Step 5).
+   > **Reference**: See [references/audit-templates.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/on-page-seo-auditor/references/audit-templates.md) for the content quality template (Step 5).
 
 6. **Audit Keyword Usage** — Primary/secondary keyword placement across all page elements, LSI/related terms, density analysis
 
-   > **Reference**: See [references/audit-templates.md](./references/audit-templates.md) for the keyword optimization template (Step 6).
+   > **Reference**: See [references/audit-templates.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/on-page-seo-auditor/references/audit-templates.md) for the keyword optimization template (Step 6).
 
 7. **Audit Internal Links** — Link count, anchor text relevance, broken links, recommended additions
 
-   > **Reference**: See [references/audit-templates.md](./references/audit-templates.md) for the internal linking template (Step 7).
+   > **Reference**: See [references/audit-templates.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/on-page-seo-auditor/references/audit-templates.md) for the internal linking template (Step 7).
 
 8. **Audit Images** — Alt text, file names, sizes, formats, lazy loading
 
-   > **Reference**: See [references/audit-templates.md](./references/audit-templates.md) for the image optimization template (Step 8).
+   > **Reference**: See [references/audit-templates.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/on-page-seo-auditor/references/audit-templates.md) for the image optimization template (Step 8).
 
 9. **Audit Technical On-Page Elements** — URL, canonical, mobile, speed, HTTPS, schema
 
-   > **Reference**: See [references/audit-templates.md](./references/audit-templates.md) for the technical on-page template (Step 9).
+   > **Reference**: See [references/audit-templates.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/on-page-seo-auditor/references/audit-templates.md) for the technical on-page template (Step 9).
 
 10. **CORE-EEAT Content Quality Quick Scan** — 17 on-page-relevant items from the 80-item CORE-EEAT benchmark
 
-    > **Reference**: See [references/audit-templates.md](./references/audit-templates.md) for the CORE-EEAT quick scan template (Step 10). Full benchmark: [CORE-EEAT Benchmark](../../references/core-eeat-benchmark.md).
+    > **Reference**: See [references/audit-templates.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/on-page-seo-auditor/references/audit-templates.md) for the CORE-EEAT quick scan template (Step 10). Full benchmark: [CORE-EEAT Benchmark](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/references/core-eeat-benchmark.md).
 
 11. **Generate Audit Summary** — Overall score with visual breakdown, priority issues (critical/important/minor), quick wins, detailed recommendations, competitor comparison, action checklist, expected results
 
-    > **Reference**: See [references/audit-templates.md](./references/audit-templates.md) for the full audit summary template (Step 11).
+    > **Reference**: See [references/audit-templates.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/on-page-seo-auditor/references/audit-templates.md) for the full audit summary template (Step 11).
 
 ## Validation Checkpoints
 
@@ -274,7 +274,7 @@ When a user requests an on-page SEO audit:
 
 ## Example
 
-> **Reference**: See [references/audit-example.md](./references/audit-example.md) for a full worked example (noise-cancelling headphones audit) and page-type checklists (blog post, product page, landing page).
+> **Reference**: See [references/audit-example.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/on-page-seo-auditor/references/audit-example.md) for a full worked example (noise-cancelling headphones audit) and page-type checklists (blog post, product page, landing page).
 
 ## Tips for Success
 
@@ -284,22 +284,22 @@ When a user requests an on-page SEO audit:
 4. **Audit regularly** - Content degrades over time
 5. **Test changes** - Track ranking changes after updates
 
-> **Scoring details**: For the complete weight distribution, scoring scale, issue resolution playbook, and industry benchmarks, see [references/scoring-rubric.md](./references/scoring-rubric.md).
+> **Scoring details**: For the complete weight distribution, scoring scale, issue resolution playbook, and industry benchmarks, see [references/scoring-rubric.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/on-page-seo-auditor/references/scoring-rubric.md).
 
 ## Reference Materials
 
-- [Scoring Rubric](./references/scoring-rubric.md) — Detailed scoring criteria, weight distribution, and grade boundaries for on-page audits
-- [Audit Templates](./references/audit-templates.md) — Detailed output templates for steps 5-11 (content quality, keywords, links, images, technical, CORE-EEAT scan, audit summary)
-- [Audit Example & Checklists](./references/audit-example.md) — Full worked example and page-type checklists (blog, product, landing page)
+- [Scoring Rubric](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/on-page-seo-auditor/references/scoring-rubric.md) — Detailed scoring criteria, weight distribution, and grade boundaries for on-page audits
+- [Audit Templates](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/on-page-seo-auditor/references/audit-templates.md) — Detailed output templates for steps 5-11 (content quality, keywords, links, images, technical, CORE-EEAT scan, audit summary)
+- [Audit Example & Checklists](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/on-page-seo-auditor/references/audit-example.md) — Full worked example and page-type checklists (blog, product, landing page)
 
 ## Related Skills
 
-- [seo-content-writer](../../build/seo-content-writer/) — Create optimized content
-- [technical-seo-checker](../technical-seo-checker/) — Technical SEO audit
-- [meta-tags-optimizer](../../build/meta-tags-optimizer/) — Optimize meta tags
-- [serp-analysis](../../research/serp-analysis/) — SERP context for audit findings
-- [content-refresher](../content-refresher/) — Update existing content
-- [content-quality-auditor](../../cross-cutting/content-quality-auditor/) — Full 80-item CORE-EEAT audit
-- [internal-linking-optimizer](../internal-linking-optimizer/) — Optimize internal link structure
-- [schema-markup-generator](../../build/schema-markup-generator/) — Validate and generate schema markup
+- [seo-content-writer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/build/seo-content-writer/SKILL.md) — Create optimized content
+- [technical-seo-checker](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/technical-seo-checker/SKILL.md) — Technical SEO audit
+- [meta-tags-optimizer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/build/meta-tags-optimizer/SKILL.md) — Optimize meta tags
+- [serp-analysis](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/research/serp-analysis/SKILL.md) — SERP context for audit findings
+- [content-refresher](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/content-refresher/SKILL.md) — Update existing content
+- [content-quality-auditor](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/cross-cutting/content-quality-auditor/SKILL.md) — Full 80-item CORE-EEAT audit
+- [internal-linking-optimizer](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/optimize/internal-linking-optimizer/SKILL.md) — Optimize internal link structure
+- [schema-markup-generator](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/build/schema-markup-generator/SKILL.md) — Validate and generate schema markup
 
