@@ -8,28 +8,46 @@ Current versions of all skills. Agents can fetch this file from `https://raw.git
 
 | Skill | Category | Version | Last Updated |
 |-------|----------|---------|--------------|
-| keyword-research | research | 4.0.0 | 2026-03-24 |
-| competitor-analysis | research | 4.0.0 | 2026-03-24 |
-| serp-analysis | research | 4.0.0 | 2026-03-24 |
-| content-gap-analysis | research | 4.0.0 | 2026-03-24 |
-| seo-content-writer | build | 4.0.0 | 2026-03-24 |
-| geo-content-optimizer | build | 4.0.0 | 2026-03-24 |
-| meta-tags-optimizer | build | 4.0.0 | 2026-03-24 |
-| schema-markup-generator | build | 4.0.0 | 2026-03-24 |
-| on-page-seo-auditor | optimize | 4.0.0 | 2026-03-24 |
-| technical-seo-checker | optimize | 4.0.0 | 2026-03-24 |
-| internal-linking-optimizer | optimize | 4.0.0 | 2026-03-24 |
-| content-refresher | optimize | 4.0.0 | 2026-03-24 |
-| rank-tracker | monitor | 4.0.0 | 2026-03-24 |
-| backlink-analyzer | monitor | 4.0.0 | 2026-03-24 |
-| performance-reporter | monitor | 4.0.0 | 2026-03-24 |
-| alert-manager | monitor | 4.0.0 | 2026-03-24 |
-| content-quality-auditor | cross-cutting | 4.0.0 | 2026-03-24 |
-| domain-authority-auditor | cross-cutting | 4.0.0 | 2026-03-24 |
-| entity-optimizer | cross-cutting | 4.0.0 | 2026-03-24 |
-| memory-management | cross-cutting | 4.0.0 | 2026-03-24 |
+| keyword-research | research | 4.1.0 | 2026-03-29 |
+| competitor-analysis | research | 4.1.0 | 2026-03-29 |
+| serp-analysis | research | 4.1.0 | 2026-03-29 |
+| content-gap-analysis | research | 4.1.0 | 2026-03-29 |
+| seo-content-writer | build | 4.1.0 | 2026-03-29 |
+| geo-content-optimizer | build | 4.1.0 | 2026-03-29 |
+| meta-tags-optimizer | build | 4.1.0 | 2026-03-29 |
+| schema-markup-generator | build | 4.1.0 | 2026-03-29 |
+| on-page-seo-auditor | optimize | 4.1.0 | 2026-03-29 |
+| technical-seo-checker | optimize | 4.1.0 | 2026-03-29 |
+| internal-linking-optimizer | optimize | 4.1.0 | 2026-03-29 |
+| content-refresher | optimize | 4.1.0 | 2026-03-29 |
+| rank-tracker | monitor | 4.1.0 | 2026-03-29 |
+| backlink-analyzer | monitor | 4.1.0 | 2026-03-29 |
+| performance-reporter | monitor | 4.1.0 | 2026-03-29 |
+| alert-manager | monitor | 4.1.0 | 2026-03-29 |
+| content-quality-auditor | cross-cutting | 4.1.0 | 2026-03-29 |
+| domain-authority-auditor | cross-cutting | 4.1.0 | 2026-03-29 |
+| entity-optimizer | cross-cutting | 4.1.0 | 2026-03-29 |
+| memory-management | cross-cutting | 4.1.0 | 2026-03-29 |
 
 ## Changelog
+
+### v4.1.0 (2026-03-29)
+
+Published-doc link hardening for skills.sh and ClawHub, plus template-safe follow-up fixes from review.
+
+**Published link reliability**:
+- Replaced repo-internal relative Markdown links with absolute GitHub links across README, AGENTS, CLAUDE, commands, skills, and shared references
+- Updated README badges and navigation links to point at canonical GitHub pages
+- Corrected a handful of previously mis-nested cross-reference targets while converting links
+
+**Template/output safety**:
+- Reverted repository URLs that had accidentally landed inside copyable example outputs and report templates
+- Kept generated examples neutral while preserving absolute GitHub links for documentation navigation
+
+**Version sync**:
+- Bumped all 20 skill versions to 4.1.0
+- Synced `.claude-plugin/plugin.json` and `marketplace.json` to 4.1.0
+- Updated README version badge to 4.1.0
 
 ### v4.0.0 (2026-03-24)
 
